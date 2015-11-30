@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!--
+     Emily Meuer
+     03/26/2015
+     CISC 131
+
+     Displays a working clock.
+     * Ad Maiorem Dei Gloriam *
+-->
+<html lang="en">
+<head>
+<title>Clock</title>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<script src="Clock.js" type="text/javascript"></script>
+<style type="text/css">
+     *
+     {
+	border	: 0;
+	margin	: 0;
+	padding	: 0;
+     }
+	
+     body
+     {
+	font-family	: "Times New Roman", serif;
+	font-size	: 12pt;
+	text-align	: center;
+     }
+
+     .separator
+     {
+	position	: relative;
+	top		: -.07em;
+     }
+
+     #clock
+     {
+	font-size	: 600%;
+	visibility	: visible;
+     }
+
+</style>
+</head>
+
+<body>
+     <div id="clock">
+	<span id="hours"></span><span class="separator" id="colon1">:</span><span id="minutes"></span><span class="separator" id="colon2">:</span><span id="seconds"></span>
+     </div>
+</body>
+</html>
